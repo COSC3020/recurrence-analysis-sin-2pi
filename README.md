@@ -30,3 +30,9 @@ function mystery(n) {
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+
+## Answer
+
+The reccurence relation I found is $$T(n) = 3T\left(\frac{n}{3}\right) + n^5$$
+ I found this recurrence relation from the three instances of $$\frac{n}{3}$$ , and the three for loops, two having $$n^2$$ time and one having n time
