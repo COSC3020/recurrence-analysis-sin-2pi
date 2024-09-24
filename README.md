@@ -34,5 +34,15 @@ might help with the notation for mathematical expressions.
 
 ## Answer
 
-The reccurence relation I found is $$T(n) = 3T\left(\frac{n}{3}\right) + n^5$$
- I found this recurrence relation from the three instances of $$\frac{n}{3}$$ , and the three for loops, two having $$n^2$$ time and one having n time
+The reccurence relation I found is $$T(n) = 3T\left(\frac{n}{3}\right) + n^5$$. And i=log<sub>3</sub>n.
+
+I found this recurrence relation from the three instances of $$\frac{n}{3}$$ , and the three for loops, two having $$n^2$$ time and one having n time.
+
+$$T(n) = 3[3T\left(\frac{n}{9}\right) + (\frac{n}{3})^5] + n^5$$
+
+$$T(n) = 9T\left(\frac{n}{9}\right) + 3(\frac{n}{3})^5 + n^5$$
+
+ I can see the following pattern:
+
+ $$3^i(\frac{n}{3^i}) + 3^i(\frac{n}{3^i})^5$$, where *i=log<sub>3</sub>n*
+
